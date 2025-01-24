@@ -4,7 +4,8 @@
 
 2. Open terminal and run the following command
 ```
-docker run -d --name=kali-linux --security-opt seccomp=unconfined -e PGID=1000 -e TZ=Etc/GMT -e SUBFOLDER=/ -e TITLE="Kali Linux " -p 3011:3000 -p 3009:3001 --shm-size="1gb" --restart unless-stopped linuxserver/kalilinux:latest
+docker run -d --name=kali-linux --security-opt seccomp=unconfined -e PGID=1000 -e TZ=Etc/GMT -e SUBFOLDER=/ -e TITLE="Kali Linux " -p 3011:3000 -p 3009:3001 --shm-size="1gb" --restart unless-stopped linuxserver/kali
+-linux:latest
 ```
 3. Open your web browser and visit
 ```
